@@ -9,11 +9,11 @@ import sqlite3
 import zlib
 import multiprocessing
 
-PROGRAM_PATH = 'C:\\Program Files (x86)\\Nitro\\Reader 3\\NitroPDFReader.exe'
+PROGRAM_PATH = 'path_to_executable'
 ARGUMENTS = [
-     'C:\\Users\\endeavor\\Desktop\\ntiro_crashes\\ReadAVonIP\\490\\crash_490.pdf'
+     'path_to_first_argument'
 ]
-DB_NAME = 'c:/users/endeavor/desktop/trace_490.json'
+DB_NAME = 'path_to_output.json'
 
 
 class StepWriter :
