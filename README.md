@@ -1,4 +1,9 @@
 tracer
 ======
 
-A windows application tracer built in python
+A simple application tracer and viewer in python.
+
+Requires:
+  * wxpython
+  * winappdbg
+  * distorm
